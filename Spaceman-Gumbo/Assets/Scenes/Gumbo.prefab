@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6972671900176749820
+--- !u!1 &4993564295382584324
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,562 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671900176749821}
-  - component: {fileID: 6972671900176749808}
-  - component: {fileID: 6972671900176749811}
-  - component: {fileID: 6972671900176749810}
-  m_Layer: 0
-  m_Name: Gumbo Leg (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972671900176749821
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900176749820}
-  m_LocalRotation: {x: -0.028840717, y: 0.025501946, z: -0.06588202, w: 0.99708444}
-  m_LocalPosition: {x: -0.285, y: 1.889, z: 0.159}
-  m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
-  m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -3.104, y: 3.1380002, z: -7.6460004}
---- !u!33 &6972671900176749808
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900176749820}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900176749811
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900176749820}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &6972671900176749810
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900176749820}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671900297439586
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972671900297439587}
-  - component: {fileID: 6972671900297439590}
-  - component: {fileID: 6972671900297439585}
-  - component: {fileID: 6972671900297439584}
-  m_Layer: 0
-  m_Name: Gumbo Leg (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972671900297439587
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900297439586}
-  m_LocalRotation: {x: -0.032958146, y: 0.019897152, z: 0.11457729, w: 0.99266815}
-  m_LocalPosition: {x: 0.319, y: 1.889, z: 0.159}
-  m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
-  m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -4.0140004, y: 1.835, z: 13.104001}
---- !u!33 &6972671900297439590
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900297439586}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900297439585
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900297439586}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &6972671900297439584
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900297439586}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671900370831845
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972671900370831834}
-  - component: {fileID: 6972671900370831833}
-  - component: {fileID: 6972671900370831832}
-  - component: {fileID: 6972671900370831835}
-  m_Layer: 0
-  m_Name: Gumbo Eye (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972671900370831834
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900370831845}
-  m_LocalRotation: {x: -0.035533678, y: 0.034498144, z: -0.70621365, w: 0.70626456}
-  m_LocalPosition: {x: 0.568, y: 2.544, z: -0.015}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
-  m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: -0.08400001, y: 5.677, z: -90.00001}
---- !u!33 &6972671900370831833
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900370831845}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900370831832
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900370831845}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 395043858ef49544da10c8ee5ddac1d1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &6972671900370831835
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900370831845}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671900507987653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972671900507987514}
-  - component: {fileID: 6972671900507987513}
-  - component: {fileID: 6972671900507987512}
-  - component: {fileID: 6972671900507987515}
-  m_Layer: 0
-  m_Name: Gumbo Nose
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972671900507987514
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900507987653}
-  m_LocalRotation: {x: -0.046659395, y: 0.045624807, z: -0.70556587, w: 0.7056331}
-  m_LocalPosition: {x: 0.725, y: 2.479, z: -0.133}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
-  m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: -0.08400001, y: 7.4830003, z: -90.00001}
---- !u!33 &6972671900507987513
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900507987653}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900507987512
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900507987653}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 395043858ef49544da10c8ee5ddac1d1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &6972671900507987515
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900507987653}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671900584519172
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972671900584519173}
-  - component: {fileID: 6972671900584519288}
-  - component: {fileID: 6972671900584519291}
-  - component: {fileID: 6972671900584519290}
-  m_Layer: 0
-  m_Name: Gumbo Eye
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972671900584519173
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900584519172}
-  m_LocalRotation: {x: -0.035533678, y: 0.034498144, z: -0.70621365, w: 0.70626456}
-  m_LocalPosition: {x: 0.545, y: 2.544, z: -0.195}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
-  m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: -0.08400001, y: 5.677, z: -90.00001}
---- !u!33 &6972671900584519288
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900584519172}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900584519291
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900584519172}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 395043858ef49544da10c8ee5ddac1d1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &6972671900584519290
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900584519172}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671900764043477
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972671900764043466}
-  - component: {fileID: 6972671900764043465}
-  - component: {fileID: 6972671900764043464}
-  - component: {fileID: 6972671900764043467}
-  m_Layer: 0
-  m_Name: Gumbo Ear (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972671900764043466
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900764043477}
-  m_LocalRotation: {x: -0.24154411, y: 0.013882144, z: 0.04058824, w: 0.9694413}
-  m_LocalPosition: {x: 0.435, y: 2.461, z: 0.12}
-  m_LocalScale: {x: 0.10000002, y: 0.14945, z: 0.023231}
-  m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: -27.999, y: 0.47400004, z: 4.677}
---- !u!33 &6972671900764043465
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900764043477}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900764043464
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900764043477}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &6972671900764043467
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900764043477}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671900895694341
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972671900895694458}
-  - component: {fileID: 6972671900895694457}
-  - component: {fileID: 6972671900895694456}
-  - component: {fileID: 6972671900895694459}
+  - component: {fileID: 4993564295382584443}
+  - component: {fileID: 4993564295382584440}
+  - component: {fileID: 4993564295382584441}
+  - component: {fileID: 4993564295382584442}
   m_Layer: 0
   m_Name: Gumbo Body
   m_TagString: Untagged
@@ -571,35 +19,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671900895694458
+--- !u!4 &4993564295382584443
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900895694341}
+  m_GameObject: {fileID: 4993564295382584324}
   m_LocalRotation: {x: -0.010378644, y: 0.11984548, z: -0.70703065, w: 0.69687665}
-  m_LocalPosition: {x: 0, y: 2.11, z: 0}
+  m_LocalPosition: {x: 0, y: 0.005, z: 0}
   m_LocalScale: {x: 0.5, y: 0.4, z: 0.54}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
+  m_Father: {fileID: 4993564295743103865}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 8.917001, y: 10.599001, z: -90}
---- !u!33 &6972671900895694457
+--- !u!33 &4993564295382584440
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900895694341}
+  m_GameObject: {fileID: 4993564295382584324}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671900895694456
+--- !u!23 &4993564295382584441
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900895694341}
+  m_GameObject: {fileID: 4993564295382584324}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -630,20 +78,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6972671900895694459
+--- !u!65 &4993564295382584442
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671900895694341}
+  m_GameObject: {fileID: 4993564295382584324}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901020807547
+--- !u!1 &4993564295511243476
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -651,44 +99,91 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901020807544}
+  - component: {fileID: 4993564295511243467}
+  - component: {fileID: 4993564295511243464}
+  - component: {fileID: 4993564295511243465}
+  - component: {fileID: 4993564295511243466}
   m_Layer: 0
-  m_Name: Gumbo
+  m_Name: Gumbo Ear (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901020807544
+--- !u!4 &4993564295511243467
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901020807547}
-  m_LocalRotation: {x: -0, y: -0.12486808, z: -0, w: 0.9921733}
-  m_LocalPosition: {x: 0.0049340874, y: -1.061, z: -0.03516927}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6972671900895694458}
-  - {fileID: 6972671901789648506}
-  - {fileID: 6972671901819291948}
-  - {fileID: 6972671901116470411}
-  - {fileID: 6972671901582873271}
-  - {fileID: 6972671900176749821}
-  - {fileID: 6972671900297439587}
-  - {fileID: 6972671901354650345}
-  - {fileID: 6972671902291481223}
-  - {fileID: 6972671900764043466}
-  - {fileID: 6972671901756448382}
-  - {fileID: 6972671900507987514}
-  - {fileID: 6972671900584519173}
-  - {fileID: 6972671900370831834}
-  - {fileID: 6972671901651172056}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -14.346001, z: 0}
---- !u!1 &6972671901116470410
+  m_GameObject: {fileID: 4993564295511243476}
+  m_LocalRotation: {x: -0.24154411, y: 0.013882144, z: 0.04058824, w: 0.9694413}
+  m_LocalPosition: {x: 0.435, y: 0.356, z: 0.12}
+  m_LocalScale: {x: 0.10000002, y: 0.14945, z: 0.023231}
+  m_Children: []
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -27.999, y: 0.47400004, z: 4.677}
+--- !u!33 &4993564295511243464
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295511243476}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4993564295511243465
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295511243476}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &4993564295511243466
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295511243476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4993564295561418379
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -696,10 +191,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901116470411}
-  - component: {fileID: 6972671901116470414}
-  - component: {fileID: 6972671901116470409}
-  - component: {fileID: 6972671901116470408}
+  - component: {fileID: 4993564295561418378}
+  - component: {fileID: 4993564295561418383}
+  - component: {fileID: 4993564295561418376}
+  - component: {fileID: 4993564295561418377}
   m_Layer: 0
   m_Name: Gumbo Snoot
   m_TagString: Untagged
@@ -707,35 +202,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901116470411
+--- !u!4 &4993564295561418378
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901116470410}
+  m_GameObject: {fileID: 4993564295561418379}
   m_LocalRotation: {x: -0.04425857, y: 0.043223742, z: -0.7057207, w: 0.70578414}
-  m_LocalPosition: {x: 0.627, y: 2.441, z: -0.121}
+  m_LocalPosition: {x: 0.627, y: 0.336, z: -0.121}
   m_LocalScale: {x: 0.15000002, y: 0.14999998, z: 0.15}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
+  m_Father: {fileID: 4993564295743103865}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -0.08400001, y: 7.0930004, z: -90.00001}
---- !u!33 &6972671901116470414
+--- !u!33 &4993564295561418383
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901116470410}
+  m_GameObject: {fileID: 4993564295561418379}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901116470409
+--- !u!23 &4993564295561418376
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901116470410}
+  m_GameObject: {fileID: 4993564295561418379}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -766,13 +261,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671901116470408
+--- !u!136 &4993564295561418377
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901116470410}
+  m_GameObject: {fileID: 4993564295561418379}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -780,7 +275,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901354650344
+--- !u!1 &4993564295743103866
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -788,46 +283,90 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901354650345}
-  - component: {fileID: 6972671901354650348}
-  - component: {fileID: 6972671901354650351}
-  - component: {fileID: 6972671901354650350}
+  - component: {fileID: 4993564295743103865}
   m_Layer: 0
-  m_Name: Gumbo Leg (3)
+  m_Name: Gumbo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901354650345
+--- !u!4 &4993564295743103865
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901354650344}
-  m_LocalRotation: {x: 0.02469269, y: 0.016376445, z: 0.06929696, w: 0.99715596}
-  m_LocalPosition: {x: 0.172, y: 1.889, z: -0.238}
+  m_GameObject: {fileID: 4993564295743103866}
+  m_LocalRotation: {x: -0.0009956377, y: -0.12486562, z: -0.00012530162, w: 0.9921732}
+  m_LocalPosition: {x: 0.0049340874, y: 1.047, z: -0.03516927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4993564295382584443}
+  - {fileID: 4993564296515613819}
+  - {fileID: 4993564296537393965}
+  - {fileID: 4993564295561418378}
+  - {fileID: 4993564297378910390}
+  - {fileID: 4993564295964137212}
+  - {fileID: 4993564295862528866}
+  - {fileID: 4993564297154095336}
+  - {fileID: 4993564296736166022}
+  - {fileID: 4993564295511243467}
+  - {fileID: 4993564297287982207}
+  - {fileID: 4993564296304024635}
+  - {fileID: 4993564296112120836}
+  - {fileID: 4993564295923338203}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.115, y: -14.346001, z: 0}
+--- !u!1 &4993564295862528867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993564295862528866}
+  - component: {fileID: 4993564295862528871}
+  - component: {fileID: 4993564295862528864}
+  - component: {fileID: 4993564295862528865}
+  m_Layer: 0
+  m_Name: Gumbo Leg (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993564295862528866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295862528867}
+  m_LocalRotation: {x: -0.032958146, y: 0.019897152, z: 0.11457729, w: 0.99266815}
+  m_LocalPosition: {x: 0.319, y: -0.216, z: 0.159}
   m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 2.6920002, y: 2.0700002, z: 7.9990005}
---- !u!33 &6972671901354650348
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -4.0140004, y: 1.835, z: 13.104001}
+--- !u!33 &4993564295862528871
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901354650344}
+  m_GameObject: {fileID: 4993564295862528867}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901354650351
+--- !u!23 &4993564295862528864
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901354650344}
+  m_GameObject: {fileID: 4993564295862528867}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -858,13 +397,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671901354650350
+--- !u!136 &4993564295862528865
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901354650344}
+  m_GameObject: {fileID: 4993564295862528867}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -872,7 +411,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901582873270
+--- !u!1 &4993564295923338212
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -880,46 +419,138 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901582873271}
-  - component: {fileID: 6972671901582873258}
-  - component: {fileID: 6972671901582873269}
-  - component: {fileID: 6972671901582873268}
+  - component: {fileID: 4993564295923338203}
+  - component: {fileID: 4993564295923338200}
+  - component: {fileID: 4993564295923338201}
+  - component: {fileID: 4993564295923338202}
   m_Layer: 0
-  m_Name: Gumbo Leg
+  m_Name: Gumbo Eye (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901582873271
+--- !u!4 &4993564295923338203
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901582873270}
-  m_LocalRotation: {x: 0.026675401, y: 0.012897231, z: -0.06579543, w: 0.99739313}
-  m_LocalPosition: {x: -0.291, y: 1.889, z: -0.104}
+  m_GameObject: {fileID: 4993564295923338212}
+  m_LocalRotation: {x: -0.035533678, y: 0.034498144, z: -0.70621365, w: 0.70626456}
+  m_LocalPosition: {x: 0.568, y: 0.439, z: -0.015}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_Children: []
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -0.08400001, y: 5.677, z: -90.00001}
+--- !u!33 &4993564295923338200
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295923338212}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4993564295923338201
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295923338212}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 395043858ef49544da10c8ee5ddac1d1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &4993564295923338202
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295923338212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4993564295964137213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993564295964137212}
+  - component: {fileID: 4993564295964137201}
+  - component: {fileID: 4993564295964137202}
+  - component: {fileID: 4993564295964137203}
+  m_Layer: 0
+  m_Name: Gumbo Leg (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993564295964137212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564295964137213}
+  m_LocalRotation: {x: -0.028840717, y: 0.025501946, z: -0.06588202, w: 0.99708444}
+  m_LocalPosition: {x: -0.285, y: -0.216, z: 0.159}
   m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 3.1480002, y: 1.2750001, z: -7.5130005}
---- !u!33 &6972671901582873258
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -3.104, y: 3.1380002, z: -7.6460004}
+--- !u!33 &4993564295964137201
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901582873270}
+  m_GameObject: {fileID: 4993564295964137213}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901582873269
+--- !u!23 &4993564295964137202
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901582873270}
+  m_GameObject: {fileID: 4993564295964137213}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -950,13 +581,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671901582873268
+--- !u!136 &4993564295964137203
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901582873270}
+  m_GameObject: {fileID: 4993564295964137213}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -964,7 +595,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901651172059
+--- !u!1 &4993564296112120837
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -972,46 +603,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901651172056}
-  - component: {fileID: 6972671901651172063}
-  - component: {fileID: 6972671901651172062}
-  - component: {fileID: 6972671901651172057}
+  - component: {fileID: 4993564296112120836}
+  - component: {fileID: 4993564296112120953}
+  - component: {fileID: 4993564296112120954}
+  - component: {fileID: 4993564296112120955}
   m_Layer: 0
-  m_Name: Gumbo Leg (4)
+  m_Name: Gumbo Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901651172056
+--- !u!4 &4993564296112120836
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901651172059}
-  m_LocalRotation: {x: 0.026675401, y: 0.012897231, z: -0.06579543, w: 0.99739313}
-  m_LocalPosition: {x: -0.291, y: 1.889, z: -0.104}
-  m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
+  m_GameObject: {fileID: 4993564296112120837}
+  m_LocalRotation: {x: -0.035533678, y: 0.034498144, z: -0.70621365, w: 0.70626456}
+  m_LocalPosition: {x: 0.545, y: 0.439, z: -0.195}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 3.1480002, y: 1.2750001, z: -7.5130005}
---- !u!33 &6972671901651172063
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -0.08400001, y: 5.677, z: -90.00001}
+--- !u!33 &4993564296112120953
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901651172059}
+  m_GameObject: {fileID: 4993564296112120837}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901651172062
+--- !u!23 &4993564296112120954
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901651172059}
+  m_GameObject: {fileID: 4993564296112120837}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1022,7 +653,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 395043858ef49544da10c8ee5ddac1d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1042,13 +673,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671901651172057
+--- !u!136 &4993564296112120955
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901651172059}
+  m_GameObject: {fileID: 4993564296112120837}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -1056,7 +687,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901756448377
+--- !u!1 &4993564296304024772
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1064,46 +695,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901756448382}
-  - component: {fileID: 6972671901756448381}
-  - component: {fileID: 6972671901756448380}
-  - component: {fileID: 6972671901756448383}
+  - component: {fileID: 4993564296304024635}
+  - component: {fileID: 4993564296304024632}
+  - component: {fileID: 4993564296304024633}
+  - component: {fileID: 4993564296304024634}
   m_Layer: 0
-  m_Name: Gumbo Tail
+  m_Name: Gumbo Nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901756448382
+--- !u!4 &4993564296304024635
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901756448377}
-  m_LocalRotation: {x: -0.05639396, y: 0.040892337, z: -0.6081677, w: 0.7907463}
-  m_LocalPosition: {x: -0.355, y: 2.29, z: 0.05}
-  m_LocalScale: {x: 0.053439274, y: 0.13767098, z: 0.05902891}
+  m_GameObject: {fileID: 4993564296304024772}
+  m_LocalRotation: {x: -0.046659395, y: 0.045624807, z: -0.70556587, w: 0.7056331}
+  m_LocalPosition: {x: 0.725, y: 0.374, z: -0.133}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: -2.2610002, y: 7.6640005, z: -75.28001}
---- !u!33 &6972671901756448381
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -0.08400001, y: 7.4830003, z: -90.00001}
+--- !u!33 &4993564296304024632
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901756448377}
+  m_GameObject: {fileID: 4993564296304024772}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901756448380
+--- !u!23 &4993564296304024633
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901756448377}
+  m_GameObject: {fileID: 4993564296304024772}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1114,7 +745,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d91e1c0f1019cd649a28f8a9dcb756e7, type: 2}
+  - {fileID: 2100000, guid: 395043858ef49544da10c8ee5ddac1d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1134,13 +765,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671901756448383
+--- !u!136 &4993564296304024634
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901756448377}
+  m_GameObject: {fileID: 4993564296304024772}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -1148,7 +779,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901789648389
+--- !u!1 &4993564296515613700
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1156,10 +787,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901789648506}
-  - component: {fileID: 6972671901789648505}
-  - component: {fileID: 6972671901789648504}
-  - component: {fileID: 6972671901789648507}
+  - component: {fileID: 4993564296515613819}
+  - component: {fileID: 4993564296515613816}
+  - component: {fileID: 4993564296515613817}
+  - component: {fileID: 4993564296515613818}
   m_Layer: 0
   m_Name: Gumbo Neck
   m_TagString: Untagged
@@ -1167,35 +798,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901789648506
+--- !u!4 &4993564296515613819
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901789648389}
+  m_GameObject: {fileID: 4993564296515613700}
   m_LocalRotation: {x: -0.04184312, y: 0.07887146, z: -0.40380946, w: 0.9104759}
-  m_LocalPosition: {x: 0.261, y: 2.266, z: -0.057}
+  m_LocalPosition: {x: 0.261, y: 0.161, z: -0.057}
   m_LocalScale: {x: 0.26373258, y: 0.3268, z: 0.314}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
+  m_Father: {fileID: 4993564295743103865}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.716, y: 10.22, z: -47.9}
---- !u!33 &6972671901789648505
+--- !u!33 &4993564296515613816
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901789648389}
+  m_GameObject: {fileID: 4993564296515613700}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901789648504
+--- !u!23 &4993564296515613817
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901789648389}
+  m_GameObject: {fileID: 4993564296515613700}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1226,13 +857,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671901789648507
+--- !u!136 &4993564296515613818
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901789648389}
+  m_GameObject: {fileID: 4993564296515613700}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -1240,7 +871,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671901819291951
+--- !u!1 &4993564296537393966
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1248,10 +879,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671901819291948}
-  - component: {fileID: 6972671901819291939}
-  - component: {fileID: 6972671901819291938}
-  - component: {fileID: 6972671901819291949}
+  - component: {fileID: 4993564296537393965}
+  - component: {fileID: 4993564296537393954}
+  - component: {fileID: 4993564296537393955}
+  - component: {fileID: 4993564296537393964}
   m_Layer: 0
   m_Name: Gumbo Head
   m_TagString: Untagged
@@ -1259,35 +890,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671901819291948
+--- !u!4 &4993564296537393965
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901819291951}
+  m_GameObject: {fileID: 4993564296537393966}
   m_LocalRotation: {x: -0.00853621, y: 0.07566345, z: 0.00064775976, w: 0.99709666}
-  m_LocalPosition: {x: 0.457, y: 2.481, z: -0.097}
+  m_LocalPosition: {x: 0.457, y: 0.376, z: -0.097}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.3198921}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
+  m_Father: {fileID: 4993564295743103865}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.98100007, y: 8.679001, z: 0}
---- !u!33 &6972671901819291939
+--- !u!33 &4993564296537393954
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901819291951}
+  m_GameObject: {fileID: 4993564296537393966}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671901819291938
+--- !u!23 &4993564296537393955
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901819291951}
+  m_GameObject: {fileID: 4993564296537393966}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1318,20 +949,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6972671901819291949
+--- !u!65 &4993564296537393964
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671901819291951}
+  m_GameObject: {fileID: 4993564296537393966}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6972671902291481222
+--- !u!1 &4993564296736166023
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1339,10 +970,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6972671902291481223}
-  - component: {fileID: 6972671902291481338}
-  - component: {fileID: 6972671902291481221}
-  - component: {fileID: 6972671902291481220}
+  - component: {fileID: 4993564296736166022}
+  - component: {fileID: 4993564296736166139}
+  - component: {fileID: 4993564296736166020}
+  - component: {fileID: 4993564296736166021}
   m_Layer: 0
   m_Name: Gumbo Ear
   m_TagString: Untagged
@@ -1350,35 +981,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6972671902291481223
+--- !u!4 &4993564296736166022
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671902291481222}
+  m_GameObject: {fileID: 4993564296736166023}
   m_LocalRotation: {x: 0.21371053, y: 0.045572605, z: -0.0053753266, w: 0.9758187}
-  m_LocalPosition: {x: 0.374, y: 2.461, z: -0.288}
+  m_LocalPosition: {x: 0.374, y: 0.356, z: -0.288}
   m_LocalScale: {x: 0.1, y: 0.14945, z: 0.023231}
   m_Children: []
-  m_Father: {fileID: 6972671901020807544}
+  m_Father: {fileID: 4993564295743103865}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 24.682001, y: 5.472, z: 0.56700003}
---- !u!33 &6972671902291481338
+--- !u!33 &4993564296736166139
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671902291481222}
+  m_GameObject: {fileID: 4993564296736166023}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6972671902291481221
+--- !u!23 &4993564296736166020
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671902291481222}
+  m_GameObject: {fileID: 4993564296736166023}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1409,13 +1040,289 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &6972671902291481220
+--- !u!136 &4993564296736166021
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6972671902291481222}
+  m_GameObject: {fileID: 4993564296736166023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4993564297154095337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993564297154095336}
+  - component: {fileID: 4993564297154095341}
+  - component: {fileID: 4993564297154095342}
+  - component: {fileID: 4993564297154095343}
+  m_Layer: 0
+  m_Name: Gumbo Leg (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993564297154095336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297154095337}
+  m_LocalRotation: {x: 0.02469269, y: 0.016376445, z: 0.06929696, w: 0.99715596}
+  m_LocalPosition: {x: 0.172, y: -0.216, z: -0.238}
+  m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
+  m_Children: []
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 2.6920002, y: 2.0700002, z: 7.9990005}
+--- !u!33 &4993564297154095341
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297154095337}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4993564297154095342
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297154095337}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &4993564297154095343
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297154095337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4993564297287982200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993564297287982207}
+  - component: {fileID: 4993564297287982204}
+  - component: {fileID: 4993564297287982205}
+  - component: {fileID: 4993564297287982206}
+  m_Layer: 0
+  m_Name: Gumbo Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993564297287982207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297287982200}
+  m_LocalRotation: {x: -0.05639396, y: 0.040892337, z: -0.6081677, w: 0.7907463}
+  m_LocalPosition: {x: -0.355, y: 0.185, z: 0.05}
+  m_LocalScale: {x: 0.053439274, y: 0.13767098, z: 0.05902891}
+  m_Children: []
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -2.2610002, y: 7.6640005, z: -75.28001}
+--- !u!33 &4993564297287982204
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297287982200}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4993564297287982205
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297287982200}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d91e1c0f1019cd649a28f8a9dcb756e7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &4993564297287982206
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297287982200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4993564297378910391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993564297378910390}
+  - component: {fileID: 4993564297378910379}
+  - component: {fileID: 4993564297378910388}
+  - component: {fileID: 4993564297378910389}
+  m_Layer: 0
+  m_Name: Gumbo Leg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4993564297378910390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297378910391}
+  m_LocalRotation: {x: 0.026675401, y: 0.012897231, z: -0.06579543, w: 0.99739313}
+  m_LocalPosition: {x: -0.291, y: -0.216, z: -0.104}
+  m_LocalScale: {x: 0.16029745, y: 0.33522323, z: 0.16029742}
+  m_Children: []
+  m_Father: {fileID: 4993564295743103865}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 3.1480002, y: 1.2750001, z: -7.5130005}
+--- !u!33 &4993564297378910379
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297378910391}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4993564297378910388
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297378910391}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &4993564297378910389
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993564297378910391}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
