@@ -6,8 +6,8 @@ using UnityEngine;
 public class Fart : MonoBehaviour
 {
     Rigidbody rigidBody;
-    float RotationSpeed = 200.0f;
-    float ThrustPower = 100000.0f;
+    [SerializeField] float RotationSpeed = 200.0f;
+    [SerializeField] float ThrustPower = 100000.0f;
     AudioSource audioSource;
     bool playFart;
     bool toggleFartSound;
@@ -79,6 +79,23 @@ public class Fart : MonoBehaviour
         {
             audioSource.Stop();
             toggleFartSound = true;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Friendly":
+                print("OK");
+                break;
+            case "Food":
+                print("Food");
+                break;
+            default:
+                print("Dead");
+                break;
+
         }
     }
 }
