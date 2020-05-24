@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Fart : MonoBehaviour
 {
@@ -89,11 +87,16 @@ public class Fart : MonoBehaviour
             case "Friendly":
                 print("OK");
                 break;
+            case "Finish":
+                print("finish");
+                SceneManager.LoadScene(1);
+                break;
             case "Food":
                 print("Food");
                 break;
             default:
                 print("Dead");
+                SceneManager.LoadScene(0);
                 break;
 
         }
