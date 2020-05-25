@@ -9,6 +9,9 @@ public class Fart : MonoBehaviour
     AudioSource audioSource;
     bool playFart;
     bool toggleFartSound;
+    enum State {Alive, Dying, NextLevel };
+    int nextLevel;
+    
     
     
     // Start is called before the first frame update
@@ -18,6 +21,8 @@ public class Fart : MonoBehaviour
         rigidBody = GetComponent<Rigidbody>();
         playFart = true;
         toggleFartSound = true;
+        nextLevel = SceneManager.GetActiveScene().buildIndex;
+        
     }
 
     // Update is called once per frame
@@ -89,7 +94,7 @@ public class Fart : MonoBehaviour
                 break;
             case "Finish":
                 print("finish");
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(nextLevel);
                 break;
             case "Food":
                 print("Food");
