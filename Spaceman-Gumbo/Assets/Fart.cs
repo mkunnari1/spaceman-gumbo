@@ -21,7 +21,7 @@ public class Fart : MonoBehaviour
         rigidBody = GetComponent<Rigidbody>();
         playFart = true;
         toggleFartSound = true;
-        nextLevel = SceneManager.GetActiveScene().buildIndex;
+        nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
         
     }
 
