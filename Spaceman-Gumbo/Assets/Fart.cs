@@ -10,7 +10,10 @@ public class Fart : MonoBehaviour
     bool playFart;
     bool toggleFartSound;
     enum State {Alive, Dying, NextLevel };
+    State state = State.Alive;
     int nextLevel;
+    float nextLevelDelay = 1.0f;
+    float deathDelay = 2.5f;
     
     
     
@@ -38,29 +41,36 @@ public class Fart : MonoBehaviour
     //controls for user and define how thrust will work
     private void Thrust()
     {
-
-        //thrust
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if(state == State.Alive)
         {
-            rigidBody.AddRelativeForce(Vector3.up*ThrustPower*Time.deltaTime);
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            {
+                rigidBody.AddRelativeForce(Vector3.up * ThrustPower * Time.deltaTime);
 
 
+            }
         }
+        //thrust
+       
         
     }
 
     private void Rotation()
     {
-        rigidBody.freezeRotation = true;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if (state == State.Alive)
         {
-            transform.Rotate(Vector3.forward * RotationSpeed * Time.deltaTime);
+            rigidBody.freezeRotation = true;
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                transform.Rotate(Vector3.forward * RotationSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Rotate(Vector3.back * RotationSpeed * Time.deltaTime);
+            }
+            rigidBody.freezeRotation = false;
         }
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Rotate(Vector3.back * RotationSpeed * Time.deltaTime);
-        }
-        rigidBody.freezeRotation = false;
+       
     }
 
     //audio for gumbo and his fart rocket
@@ -85,23 +95,36 @@ public class Fart : MonoBehaviour
         }
     }
 
+    private void LoadNextLevel()
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
+    private void Death()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     void OnCollisionEnter(Collision collision)
     {
+        if (state != State.Alive)
+        {
+            return;
+        }
         switch (collision.gameObject.tag)
         {
             case "Friendly":
                 print("OK");
                 break;
             case "Finish":
-                print("finish");
-                SceneManager.LoadScene(nextLevel);
+                state = State.NextLevel;
+                Invoke ("LoadNextLevel", nextLevelDelay);
                 break;
             case "Food":
                 print("Food");
                 break;
             default:
-                print("Dead");
-                SceneManager.LoadScene(0);
+                state = State.Dying;
+                Invoke("Death", deathDelay);
                 break;
 
         }
