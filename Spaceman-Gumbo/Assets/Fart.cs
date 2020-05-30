@@ -19,6 +19,7 @@ public class Fart : MonoBehaviour
     int nextLevel;
     float nextLevelDelay = 1.0f;
     float deathDelay = 2.5f;
+    int currentLevel;
     
     
     
@@ -30,6 +31,7 @@ public class Fart : MonoBehaviour
         playFart = true;
         toggleFartSound = true;
         nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
         
     }
 
@@ -125,7 +127,8 @@ public class Fart : MonoBehaviour
     }
     private void Death()
     {
-        SceneManager.LoadScene(0);
+       // SceneManager.LoadScene(0);
+        SceneManager.LoadScene(currentLevel);
     }
     // Defines what happens when character runs into stuff
     void OnCollisionEnter(Collision collision)
